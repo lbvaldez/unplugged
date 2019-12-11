@@ -1,0 +1,64 @@
+header {
+  background-color: black;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#logo a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#logo img {
+  width: 50%;
+}
+
+#menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 18px;
+}
+
+#menu a {
+  color: #e2e3ed;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#faq {
+  padding-right: 50px;
+}
+
+#headline {
+  background-image: url(../img/jake-melara-30679-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+
+#headline h1 {
+  color: #e2e3ed;
+  padding-top: 50px;
+  padding-left: 12px;
+  font-size: 36px;
+}
+
+#info {
+  color: #e2e3ed;
+  background-color: #527158;
+  padding-left: 12px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+#download-button {
+  display: block;
+}

@@ -12,26 +12,35 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
         <header>
-          <figure>
-            <a href="#"><img src="img/logo.png" alt"Unplugged Logo"></a>
+          <figure id="logo">
+            <a href="#"><img src="img/unpluggedlogo.png" alt"Unplugged Logo"></a>
           </figure>
           <nav>
-            <ul>
-              <li><a href="about/index.html">About Us</a></li>
-              <li><a href="faq/index.html">FAQs</a></li>
+            <ul id="menu">
+              <li id="faq"><a href="faq/index.html">FAQ</a></li>
+              <li id="about"><a href="about/index.html">ABOUT</a></li>
             </ul>
           </nav>
+          <section id="headline">
+            <h1>Retreat from the desk, return refreshed.</h1>
+          </section>
         </header>
         <main>
-          <aside>
-          </aside>
+          <section id="info">
+            <h2>Want to join the next retreat?</h2>
+            <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+            <h2>Find out more</h2>
+            <input type="email" id="email" size="30" required>
+            <button id="download-button">DOWNLOAD ITENERARY</button>
+          </section>
         </main>
         <footer>
         </footer>
