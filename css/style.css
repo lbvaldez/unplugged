@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: black;
 }
@@ -81,7 +85,7 @@ header {
   background-image: url(../img/rawpixel-800820-unsplash1.jpg);
   background-size: cover;
   background-position: center;
-  height: 1200px;
+  height: 825px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,5 +94,28 @@ header {
 
 #info i {
   font-size: 55px;
-  padding-bottom: 50px;
+}
+
+#example {
+  background-color: #2a423a;
+  padding: 50px 12px 50px 12px;
+  color: #e2e3ed;
+}
+
+#example img {
+  height: 200px;
+  width: 100%;
+}
+
+#example h2 {
+  font-size: 30px;
+}
+
+#example h3, h4 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+#example h3 {
+  padding-top: 20px;
 }
