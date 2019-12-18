@@ -9,19 +9,15 @@ header {
 }
 
 #logo {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  text-align: center;
 }
 
-#logo a {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
+/*#logo a {
+  margin: 0 auto;
+}*/
 
 #logo img {
-  width: 50%;
+  width: 70%;
 }
 
 #menu {
@@ -178,6 +174,21 @@ footer p {
   background-color: #527158;
   color: #e2e3ed;
   padding: 45px 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+#question-section h1 {
+  font-size: 30px;
+}
+
+#question-section h2 {
+  font-size: 18px;
+}
+
+#question-section p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*About page*/
@@ -185,6 +196,8 @@ footer p {
   background-color: #527158;
   color: #e2e3ed;
   padding: 45px 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
 }
 
 #map {
@@ -207,4 +220,13 @@ footer p {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+#about-contact h3 {
+  font-size: 18px;
+}
+
+#about-contact p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
