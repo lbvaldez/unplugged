@@ -21,67 +21,121 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
         <header>
-          <figure id="logo">
-            <a href="index.html"><img src="img/unpluggedlogo.png" alt"Unplugged Logo"></a>
-          </figure>
-          <nav>
-            <ul id="menu">
-              <li id="faq"><a href="faq/index.html">FAQ</a></li>
-              <li id="about"><a href="about/index.html">ABOUT</a></li>
-            </ul>
-          </nav>
+          <section id="menu-bar">
+            <figure id="logo">
+              <a href="index.html"><img src="img/unpluggedlogo.png" alt"Unplugged Logo"></a>
+            </figure>
+            <nav>
+              <ul id="menu">
+                <li id="faq"><a href="faq/index.html">FAQ</a></li>
+                <li id="about"><a href="about/index.html">ABOUT</a></li>
+              </ul>
+            </nav>
+          </section>
           <section id="headline">
             <h1>Retreat from the desk, return refreshed.</h1>
           </section>
         </header>
         <main>
           <section id="sign-up">
-            <h2>Want to join the next retreat?</h2>
-            <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
-            <h2>Find out more</h2>
-            <input id="email" type="email" id="email" size="30" placeholder="name@email.com" required>
-            <button id="download-button">DOWNLOAD ITENERARY</button>
+            <div class="col-2">
+              <h2>Want to join the next retreat?</h2>
+              <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+            </div>
+            <div class="col-2">
+              <h2>Find out more</h2>
+              <input id="email" type="email" id="email" size="30" placeholder="name@email.com" required>
+              <button id="download-button">DOWNLOAD ITENERARY</button>
+            </div>
           </section>
           <section id="info">
+            <div class="mobile">
             <h2>Have the work week you always dreamed of - without the bad wifi.</h2>
-            <i class="fas fa-campground"></i>
-            <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
-            <i class="fas fa-bed"></i>
-            <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
-            <i class="fas fa-utensils"></i>
-            <p>Private chef team providing on demand meals - just like your team kitchen</p>
-            <i class="fas fa-shoe-prints"></i>
-            <p>5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
-            <i class="fas fa-smile"></i>
-            <p>Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
-            <i class="fas fa-wifi"></i>
-            <p>Dedicated computer room for times that you must wifi.</p>
+                <i class="fas fa-campground"></i>
+                <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+                <i class="fas fa-bed"></i>
+                <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+                <i class="fas fa-utensils"></i>
+                <p>Private chef team providing on demand meals - just like your team kitchen</p>
+                <i class="fas fa-shoe-prints"></i>
+                <p>5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
+                <i class="fas fa-smile"></i>
+                <p>Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+                <i class="fas fa-wifi"></i>
+                <p>Dedicated computer room for times that you must wifi.</p>
+            </div>
+            <div class="flex tablet">
+              <div class="col-2 col-padding">
+                <i class="fas fa-campground"></i>
+                <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+                <i class="fas fa-bed"></i>
+                <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+                <i class="fas fa-utensils"></i>
+                <p>Private chef team providing on demand meals - just like your team kitchen</p>
+              </div>
+              <div class="col-2 col-padding">
+                <i class="fas fa-shoe-prints"></i>
+                <p>5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
+                <i class="fas fa-smile"></i>
+                <p>Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+                <i class="fas fa-wifi"></i>
+                <p>Dedicated computer room for times that you must wifi.</p>
+              </div>
+            </div>
+            <div class="flex desktop">
+              <div class="col-3 col-padding">
+                <i class="fas fa-campground"></i>
+                <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+                <i class="fas fa-bed"></i>
+                <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+              </div>
+              <div class="col-3 col-padding">
+                <i class="fas fa-utensils"></i>
+                <p>Private chef team providing on demand meals - just like your team kitchen</p>
+                <i class="fas fa-shoe-prints"></i>
+                <p>5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
+              </div>
+              <div class="col-3 col-padding">
+                <i class="fas fa-smile"></i>
+                <p>Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+                <i class="fas fa-wifi"></i>
+                <p>Dedicated computer room for times that you must wifi.</p>
+              </div>
+            </div>
           </section>
           <section id="example">
             <h2>Be a better team in 5 days, like these.</h2>
-            <img src="img/omar-lopez-296944-unsplash.jpg" alt"Photo of LaCrue Bottling Co. team"></a>
-            <h3>LaCrue Bottling Co.</h3>
-            <h4>October 2017</h4>
+              <div class="flex">
+                <div class="col-2">
+                  <img src="img/omar-lopez-296944-unsplash.jpg" alt"Photo of LaCrue Bottling Co. team"></a>
+                </div>
+                <div class="col-2">
+                  <h3>LaCrue Bottling Co.</h3>
+                  <h4>October 2017</h4>
+                </div>
+              </div>
           </section>
         </main>
-        <footer>
-          <h4>Contact</h4>
-          <p>555-555-5555</p>
-          <p>hello@unplugged.com</p>
-          <h4>Social</h4>
-          <div>
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fab fa-facebook-f fa-stack-1x"></i>
-            </span>
-            <span class="icon fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-twitter fa-stack-1x"></i>
-            </span>
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-instagram fa-stack-1x"></i>
-            </span>
+        <footer class="flex">
+          <div class="col-2">
+            <h4>Contact</h4>
+            <p>555-555-5555</p>
+            <p>hello@unplugged.com</p>
+          </div>
+          <div class="col-2">
+              <h4>Social</h4>
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x"></i>
+              </span>
+              <span class="icon fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x"></i>
+              </span>
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x"></i>
+              </span>
           </div>
         </footer>
 

@@ -12,10 +12,6 @@ header {
   text-align: center;
 }
 
-/*#logo a {
-  margin: 0 auto;
-}*/
-
 #logo img {
   width: 70%;
 }
@@ -26,6 +22,7 @@ header {
   justify-content: center;
   list-style: none;
   padding-bottom: 18px;
+  padding-top: 20px;
 }
 
 #menu a {
@@ -51,7 +48,7 @@ header {
 #headline h1 {
   color: #e2e3ed;
   padding-top: 50px;
-  padding-left: 12px;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -103,9 +100,18 @@ header {
   font-size: 20px;
 }
 
+.mobile {
+  text-align: center;
+}
+
+.desktop, .tablet {
+  display: none;
+}
+
 #info i {
   font-size: 55px;
   padding-top: 45px;
+  text-align: center;
 }
 
 #info p {
@@ -113,6 +119,10 @@ header {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+}
+
+.desktop {
+  display: none;
 }
 
 /*Example section homepage*/
@@ -155,11 +165,13 @@ footer {
 footer h4 {
   padding-bottom: 20px;
   padding-top: 20px;
+  text-align: center;
 }
 
 footer p {
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 .icon {
   margin: 0px 40px;
@@ -229,4 +241,83 @@ footer p {
 #about-contact p {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
+}
+
+/*TABLET*/
+/*Tablet media queries*/
+@media only screen and (min-width: 768px) {
+  /*Header*/
+  #menu-bar, .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #logo img {
+    width: 100%;
+  }
+
+  #logo {
+    text-align: left;
+    width: 30%;
+  }
+
+  #about {
+    padding-right: 60px;
+  }
+
+  /*Sign-up section*/
+  #sign-up {
+    display: flex;
+  }
+
+  /*Info section*/
+  .col-padding {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desktop, .mobile {
+    display: none;
+  }
+  /*Example section*/
+  .col-2 {
+    width: 50%;
+  }
+
+  #example h3, h4 {
+    padding-left: 25px;
+  }
+
+  /*Footer section*/
+  footer {
+    text-align: center;
+  }
+
+  /**************/
+  /*FAQ PAGE*/
+  #question-section h1, .col-2 {
+    padding-left: 30px;
+  }
+
+  /**************/
+  /*ABOUT PAGE*/
+
+  }
+
+@media only screen and (min-width: 992px) {
+  .mobile, .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+  }
+
+  .col-3 {
+    width: 33%;
+  }
+
+
 }
